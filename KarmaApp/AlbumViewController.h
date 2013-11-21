@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AlbumViewController.h
 //  StoryboardUITableView
 //
 //  Created by Kurry Tran on 10/25/11.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AlbumViewController : UITableViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) NSMutableArray *albums;
 
 @end

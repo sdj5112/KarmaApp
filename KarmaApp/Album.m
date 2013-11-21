@@ -1,13 +1,13 @@
 //
-//  FirstViewController.h
+//  Album.m
 //  StoryboardUITableView
 //
 //  Created by Kurry Tran on 10/25/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Album.h"
 
-@interface FirstViewController : UIViewController
-
+@implementation Album
+@synthesize albumName, artist, rating;
 @end
